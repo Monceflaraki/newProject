@@ -10,3 +10,7 @@ let myMessages = {
     msg9:"Even if you fall on your face, you're still moving forward.",
 }
 
+let randomNum = Math.floor(Math.random()*10)
+
+
+
