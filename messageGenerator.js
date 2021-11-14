@@ -14,3 +14,25 @@ let randomNum = Math.floor(Math.random()*10)
 
 
 
+const getMotivated = randomNumber =>{
+    switch(randomNum){
+        case 1:
+            return myMessages.msg1;
+        case 2:
+            return myMessages.msg2;
+        case 3:
+            return myMessages.msg3;
+        case 4:
+            return myMessages.msg4;
+        case 5:
+            return myMessages.msg5;
+        case 6:
+            return myMessages.msg6
+        case 7:
+            return myMessages.msg7;
+        case 8:
+            return myMessages.msg8;
+        case 9:
+            return myMessages.msg9;
+    }
+}
