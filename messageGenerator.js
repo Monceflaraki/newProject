@@ -36,3 +36,5 @@ const getMotivated = randomNumber =>{
             return myMessages.msg9;
     }
 }
+
+console.log(getMotivated(randomNum));
